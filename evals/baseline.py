@@ -30,11 +30,12 @@ def make_query(claim):
 def retrieval_eval(ret, golden):
     out = {}
     for mode in ("bm25", "vector", "hybrid"):
-        total = 0
+        hits = 0
         for g in golden:
-            hits = ret.search(make_query(load_claim(g["claim_id"])), k=5, mode=mode)
-            total += sum(h["policy_id"] == g["policy_id"] for h in hits) / 5
-        out[mode] = round(total / len(golden), 3)
+            claim = load_claim(g["claim_id"])
+            res = ret.search(make_query(claim), k=3, mode=mode, policy_id=claim["policy_id"])
+            hits += any(h["clause"] == g["expected_clause"] for h in res)
+        out[mode] = round(hits / len(golden), 3)
     return out
 
 
@@ -69,7 +70,8 @@ def main(n):
         cid = g["claim_id"]
         if cid not in cache:
             claim = load_claim(cid)
-            cache[cid] = ask_llm(client, claim, ret.search(make_query(claim), k=5))
+            #cache[cid] = ask_llm(client, claim, ret.search(make_query(claim), k=5, policy_id=claim["policy_id"]))
+            cache[cid] = ask_llm(client, claim, ret.search(make_query(claim), k=5, policy_id=claim["policy_id"]))
             CACHE.write_text(json.dumps(cache, indent=2))
             time.sleep(10)  # stay inside the free-tier token limit
         p = cache[cid]
@@ -88,8 +90,8 @@ def main(n):
            "clause_acc": round(clause / len(subset), 3),
            "payable_acc": round(pay / len(subset), 3)}
     print("\nBASELINE:", json.dumps(res, indent=2))
-    (ROOT / "evals" / "results_baseline.json").write_text(json.dumps(res, indent=2))
-
+    #(ROOT / "evals" / "results_baseline.json").write_text(json.dumps(res, indent=2))
+    (ROOT / "evals" / "results_v1_metadata_filter.json").write_text(json.dumps(res, indent=2))
 
 if __name__ == "__main__":
     main(int(sys.argv[1]) if len(sys.argv) > 1 else 20)

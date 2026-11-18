@@ -3,31 +3,31 @@
     "decision": "DENIED",
     "clause": "5.1",
     "payable_amount": 0,
-    "reasoning": "The cause 'war damage' is listed in the policy's exclusions (clause 5.1)."
+    "reasoning": "Cause is excluded under clause 5.1."
   },
   "CLM-008": {
     "decision": "APPROVED",
     "clause": "4.1",
     "payable_amount": 78000,
-    "reasoning": "Incident date, waiting period, and exclusions are not indicated as violations and the invoice total is within the coverage limit, so the claim is approved for the full invoice amount."
+    "reasoning": "The incident is within the policy period, outside the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved."
   },
   "CLM-015": {
     "decision": "DENIED",
-    "clause": "N/A",
+    "clause": "2.1",
     "payable_amount": 0,
-    "reasoning": "Policy POL-003 is not present in the provided policy clauses, so the claim cannot be processed."
+    "reasoning": "The incident date 2026-11-26 falls outside the policy period defined in clause 2.1."
   },
   "CLM-022": {
     "decision": "APPROVED",
-    "clause": "4.1",
-    "payable_amount": 53000,
-    "reasoning": "The incident is within the policy period, not in the waiting period, not excluded, and no deductible applies, so the full invoice amount is payable."
+    "clause": "4.2",
+    "payable_amount": 43000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, and invoice total is below limit, so claim approved after deductible."
   },
   "CLM-029": {
-    "decision": "APPROVED",
+    "decision": "PARTIAL",
     "clause": "4.1",
-    "payable_amount": 250000,
-    "reasoning": "Incident date is within the policy period and no exclusions or limits apply, so the claim is approved."
+    "payable_amount": 195000,
+    "reasoning": "Invoice total exceeds coverage limit, so partial payment of limit minus deductible is made."
   },
   "CLM-036": {
     "decision": "DENIED",
@@ -37,86 +37,86 @@
   },
   "CLM-043": {
     "decision": "DENIED",
-    "clause": "N/A",
+    "clause": "2.1",
     "payable_amount": 0,
-    "reasoning": "Policy POL-009 has no applicable clauses provided, so the claim cannot be approved."
+    "reasoning": "The incident date 2026-03-27 falls outside the policy period (2025-02-22 to 2026-02-22)."
   },
   "CLM-050": {
     "decision": "APPROVED",
     "clause": "4.1",
     "payable_amount": 52000,
-    "reasoning": "Incident is within policy period, not excluded, and no deductible or limit applies, so full invoice amount is approved."
+    "reasoning": "The incident is within the policy period, outside the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved."
   },
   "CLM-057": {
-    "decision": "DENIED",
-    "clause": "N/A",
-    "payable_amount": 0,
-    "reasoning": "Policy POL-012 is not present in the provided policy clauses."
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 990000,
+    "reasoning": "Invoice total exceeds the coverage limit, so payable is limited to the limit minus the deductible."
   },
   "CLM-064": {
-    "decision": "DENIED",
-    "clause": "2.1",
-    "payable_amount": 0,
-    "reasoning": "Policy POL-013 has no provided policy period clause, so the incident cannot be verified as within coverage."
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 1000000,
+    "reasoning": "Invoice total exceeds the coverage limit, so payable amount is limited to INR 1,000,000 per clause 4.1."
   },
   "CLM-071": {
     "decision": "DENIED",
     "clause": "5.1",
     "payable_amount": 0,
-    "reasoning": "The cause 'dental whitening' is listed as an exclusion under clause 5.1."
+    "reasoning": "Cause is excluded under clause 5.1."
   },
   "CLM-078": {
     "decision": "DENIED",
     "clause": "5.1",
     "payable_amount": 0,
-    "reasoning": "The cause 'racing accident' is listed as an exclusion in clause 5.1."
+    "reasoning": "Cause 'racing accident' is listed in exclusions (clause 5.1)."
   },
   "CLM-085": {
     "decision": "APPROVED",
-    "clause": "4.1",
-    "payable_amount": 77000,
-    "reasoning": "The incident occurred within the policy period, is not excluded, and the invoice total is within coverage limits, so the claim is approved."
+    "clause": "4.2",
+    "payable_amount": 67000,
+    "reasoning": "The incident is within the policy period, outside the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved with the deductible applied."
   },
   "CLM-092": {
-    "decision": "APPROVED",
+    "decision": "PARTIAL",
     "clause": "4.1",
-    "payable_amount": 356000,
-    "reasoning": "Incident date is within the policy period, no waiting period or exclusions apply, so the claim is approved."
+    "payable_amount": 190000,
+    "reasoning": "Invoice exceeds coverage limit, so payable is limit minus deductible."
   },
   "CLM-099": {
-    "decision": "DENIED",
-    "clause": "N/A",
-    "payable_amount": 0,
-    "reasoning": "Policy POL-020 is not listed among the provided policy clauses, so the claim cannot be processed."
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 84000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, invoice total is below the coverage limit, so deductible applies."
   },
   "CLM-106": {
     "decision": "APPROVED",
-    "clause": "4.1",
-    "payable_amount": 18000,
-    "reasoning": "Incident date is within the policy period and no exclusions apply, so the claim is approved."
+    "clause": "4.2",
+    "payable_amount": 13000,
+    "reasoning": "Incident is within policy period, not in waiting period, not excluded, and invoice total is below coverage limit, so claim is approved after deductible."
   },
   "CLM-113": {
-    "decision": "DENIED",
-    "clause": "N/A",
-    "payable_amount": 0,
-    "reasoning": "Policy ID POL-023 is not present in the provided policy clauses."
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 500000,
+    "reasoning": "Invoice total exceeds coverage limit, so payable is limited to INR 500,000."
   },
   "CLM-120": {
-    "decision": "APPROVED",
-    "clause": "4.1",
-    "payable_amount": 65000,
-    "reasoning": "Invoice total is within the policy's coverage limit and no deductible applies, so the claim is approved."
+    "decision": "DENIED",
+    "clause": "3.1",
+    "payable_amount": 0,
+    "reasoning": "The incident occurred 27 days after policy start, which is within the 30\u2011day waiting period."
   },
   "CLM-127": {
     "decision": "DENIED",
     "clause": "2.1",
     "payable_amount": 0,
-    "reasoning": "Policy POL-026 is not listed among the provided clauses, so coverage cannot be verified."
+    "reasoning": "Incident date 2026-05-04 falls outside the policy period 2025-03-12 to 2026-03-12."
   },
   "CLM-134": {
     "decision": "APPROVED",
     "clause": "4.1",
     "payable_amount": 71000,
-    "reasoning": "Incident date is within the policy period and no exclusions or waiting period apply, so the claim is approved."
+    "reasoning": "Incident date is within policy period, outside waiting period, cause not excluded, and invoice total is below the coverage limit with zero deductible."
   }
 }
