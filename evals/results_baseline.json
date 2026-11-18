@@ -1,0 +1,11 @@
+{
+  "retrieval_hit_rate": {
+    "bm25": 0.053,
+    "vector": 0.185,
+    "hybrid": 0.135
+  },
+  "n_llm_claims": 20,
+  "decision_acc": 0.65,
+  "clause_acc": 0.5,
+  "payable_acc": 0.5
+}

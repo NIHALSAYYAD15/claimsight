@@ -1,0 +1,122 @@
+{
+  "CLM-001": {
+    "decision": "DENIED",
+    "clause": "5.1",
+    "payable_amount": 0,
+    "reasoning": "The cause 'war damage' is listed in the policy's exclusions (clause 5.1)."
+  },
+  "CLM-008": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 78000,
+    "reasoning": "Incident date, waiting period, and exclusions are not indicated as violations and the invoice total is within the coverage limit, so the claim is approved for the full invoice amount."
+  },
+  "CLM-015": {
+    "decision": "DENIED",
+    "clause": "N/A",
+    "payable_amount": 0,
+    "reasoning": "Policy POL-003 is not present in the provided policy clauses, so the claim cannot be processed."
+  },
+  "CLM-022": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 53000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, not excluded, and no deductible applies, so the full invoice amount is payable."
+  },
+  "CLM-029": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 250000,
+    "reasoning": "Incident date is within the policy period and no exclusions or limits apply, so the claim is approved."
+  },
+  "CLM-036": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date 2026-07-14 falls outside the policy period 2025-06-24 to 2026-06-24."
+  },
+  "CLM-043": {
+    "decision": "DENIED",
+    "clause": "N/A",
+    "payable_amount": 0,
+    "reasoning": "Policy POL-009 has no applicable clauses provided, so the claim cannot be approved."
+  },
+  "CLM-050": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 52000,
+    "reasoning": "Incident is within policy period, not excluded, and no deductible or limit applies, so full invoice amount is approved."
+  },
+  "CLM-057": {
+    "decision": "DENIED",
+    "clause": "N/A",
+    "payable_amount": 0,
+    "reasoning": "Policy POL-012 is not present in the provided policy clauses."
+  },
+  "CLM-064": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "Policy POL-013 has no provided policy period clause, so the incident cannot be verified as within coverage."
+  },
+  "CLM-071": {
+    "decision": "DENIED",
+    "clause": "5.1",
+    "payable_amount": 0,
+    "reasoning": "The cause 'dental whitening' is listed as an exclusion under clause 5.1."
+  },
+  "CLM-078": {
+    "decision": "DENIED",
+    "clause": "5.1",
+    "payable_amount": 0,
+    "reasoning": "The cause 'racing accident' is listed as an exclusion in clause 5.1."
+  },
+  "CLM-085": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 77000,
+    "reasoning": "The incident occurred within the policy period, is not excluded, and the invoice total is within coverage limits, so the claim is approved."
+  },
+  "CLM-092": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 356000,
+    "reasoning": "Incident date is within the policy period, no waiting period or exclusions apply, so the claim is approved."
+  },
+  "CLM-099": {
+    "decision": "DENIED",
+    "clause": "N/A",
+    "payable_amount": 0,
+    "reasoning": "Policy POL-020 is not listed among the provided policy clauses, so the claim cannot be processed."
+  },
+  "CLM-106": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 18000,
+    "reasoning": "Incident date is within the policy period and no exclusions apply, so the claim is approved."
+  },
+  "CLM-113": {
+    "decision": "DENIED",
+    "clause": "N/A",
+    "payable_amount": 0,
+    "reasoning": "Policy ID POL-023 is not present in the provided policy clauses."
+  },
+  "CLM-120": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 65000,
+    "reasoning": "Invoice total is within the policy's coverage limit and no deductible applies, so the claim is approved."
+  },
+  "CLM-127": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "Policy POL-026 is not listed among the provided clauses, so coverage cannot be verified."
+  },
+  "CLM-134": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 71000,
+    "reasoning": "Incident date is within the policy period and no exclusions or waiting period apply, so the claim is approved."
+  }
+}
