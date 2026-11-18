@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-139",
+  "policy_id": "POL-028",
+  "claimant": "Meera Gaikwad",
+  "incident_date": "2026-05-26",
+  "cause": "fire damage",
+  "invoice_total": 46000,
+  "claimed_amount": 46000,
+  "email": "Hello, I am claiming INR 46000 for fire damage on 2026-05-26. Please process under policy POL-028."
+}

@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-128",
+  "policy_id": "POL-026",
+  "claimant": "Aditya Kale",
+  "incident_date": "2026-05-06",
+  "cause": "dengue treatment",
+  "invoice_total": 67000,
+  "claimed_amount": 67000,
+  "email": "Hello, I am claiming INR 67000 for dengue treatment on 2026-05-06. Please process under policy POL-026."
+}

@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-029",
+  "policy_id": "POL-006",
+  "claimant": "Kabir Jadhav",
+  "incident_date": "2025-12-31",
+  "cause": "fire damage",
+  "invoice_total": 250000,
+  "claimed_amount": 250000,
+  "email": "Hello, I am claiming INR 250000 for fire damage on 2025-12-31. Please process under policy POL-006."
+}

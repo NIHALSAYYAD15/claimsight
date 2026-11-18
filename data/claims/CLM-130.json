@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-130",
+  "policy_id": "POL-026",
+  "claimant": "Aditya Kale",
+  "incident_date": "2025-09-15",
+  "cause": "appendectomy",
+  "invoice_total": 644000,
+  "claimed_amount": 644000,
+  "email": "Hello, I am claiming INR 644000 for appendectomy on 2025-09-15. Please process under policy POL-026."
+}

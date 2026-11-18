@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-036",
+  "policy_id": "POL-008",
+  "claimant": "Vikram Shinde",
+  "incident_date": "2026-07-14",
+  "cause": "theft",
+  "invoice_total": 82000,
+  "claimed_amount": 82000,
+  "email": "Hello, I am claiming INR 82000 for theft on 2026-07-14. Please process under policy POL-008."
+}

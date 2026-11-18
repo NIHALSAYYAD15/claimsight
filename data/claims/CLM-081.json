@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-081",
+  "policy_id": "POL-017",
+  "claimant": "Diya Kulkarni",
+  "incident_date": "2026-06-06",
+  "cause": "storm damage",
+  "invoice_total": 61000,
+  "claimed_amount": 61000,
+  "email": "Hello, I am claiming INR 61000 for storm damage on 2026-06-06. Please process under policy POL-017."
+}

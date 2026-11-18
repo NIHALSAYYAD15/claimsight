@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-123",
+  "policy_id": "POL-025",
+  "claimant": "Meera Gaikwad",
+  "incident_date": "2025-08-23",
+  "cause": "burglary",
+  "invoice_total": 767000,
+  "claimed_amount": 767000,
+  "email": "Hello, I am claiming INR 767000 for burglary on 2025-08-23. Please process under policy POL-025."
+}

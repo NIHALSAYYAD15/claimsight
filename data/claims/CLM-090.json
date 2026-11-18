@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-090",
+  "policy_id": "POL-018",
+  "claimant": "Sneha Joshi",
+  "incident_date": "2025-10-12",
+  "cause": "appendectomy",
+  "invoice_total": 52000,
+  "claimed_amount": 52000,
+  "email": "Hello, I am claiming INR 52000 for appendectomy on 2025-10-12. Please process under policy POL-018."
+}

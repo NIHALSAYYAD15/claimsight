@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-108",
+  "policy_id": "POL-022",
+  "claimant": "Sneha Joshi",
+  "incident_date": "2025-10-12",
+  "cause": "water pipe burst",
+  "invoice_total": 26000,
+  "claimed_amount": 26000,
+  "email": "Hello, I am claiming INR 26000 for water pipe burst on 2025-10-12. Please process under policy POL-022."
+}

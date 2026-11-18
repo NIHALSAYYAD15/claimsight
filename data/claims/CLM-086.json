@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-086",
+  "policy_id": "POL-018",
+  "claimant": "Sneha Joshi",
+  "incident_date": "2026-09-10",
+  "cause": "dental whitening",
+  "invoice_total": 74000,
+  "claimed_amount": 74000,
+  "email": "Hello, I am claiming INR 74000 for dental whitening on 2026-09-10. Please process under policy POL-018."
+}

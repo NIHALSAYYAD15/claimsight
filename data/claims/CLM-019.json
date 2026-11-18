@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-019",
+  "policy_id": "POL-004",
+  "claimant": "Diya Kulkarni",
+  "incident_date": "2025-10-16",
+  "cause": "appendectomy",
+  "invoice_total": 62000,
+  "claimed_amount": 124000,
+  "email": "Hello, I am claiming INR 124000 for appendectomy on 2025-10-16. Please process under policy POL-004."
+}

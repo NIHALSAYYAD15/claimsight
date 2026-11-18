@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-025",
+  "policy_id": "POL-005",
+  "claimant": "Aditya Kale",
+  "incident_date": "2025-02-22",
+  "cause": "water pipe burst",
+  "invoice_total": 66000,
+  "claimed_amount": 264000,
+  "email": "Hello, I am claiming INR 264000 for water pipe burst on 2025-02-22. Please process under policy POL-005."
+}

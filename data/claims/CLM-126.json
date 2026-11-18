@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-126",
+  "policy_id": "POL-026",
+  "claimant": "Aditya Kale",
+  "incident_date": "2025-03-15",
+  "cause": "hospitalization for fever",
+  "invoice_total": 34000,
+  "claimed_amount": 34000,
+  "email": "Hello, I am claiming INR 34000 for hospitalization for fever on 2025-03-15. Please process under policy POL-026."
+}

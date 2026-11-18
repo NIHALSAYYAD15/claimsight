@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-045",
+  "policy_id": "POL-009",
+  "claimant": "Diya Kulkarni",
+  "incident_date": "2025-05-02",
+  "cause": "collision damage",
+  "invoice_total": 43000,
+  "claimed_amount": 43000,
+  "email": "Hello, I am claiming INR 43000 for collision damage on 2025-05-02. Please process under policy POL-009."
+}

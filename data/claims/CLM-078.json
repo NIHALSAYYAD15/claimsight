@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-078",
+  "policy_id": "POL-016",
+  "claimant": "Ananya More",
+  "incident_date": "2025-07-24",
+  "cause": "racing accident",
+  "invoice_total": 49000,
+  "claimed_amount": 49000,
+  "email": "Hello, I am claiming INR 49000 for racing accident on 2025-07-24. Please process under policy POL-016."
+}

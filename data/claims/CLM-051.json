@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-051",
+  "policy_id": "POL-011",
+  "claimant": "Aditya Kale",
+  "incident_date": "2025-11-15",
+  "cause": "burglary",
+  "invoice_total": 66000,
+  "claimed_amount": 66000,
+  "email": "Hello, I am claiming INR 66000 for burglary on 2025-11-15. Please process under policy POL-011."
+}

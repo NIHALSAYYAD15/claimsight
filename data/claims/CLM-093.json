@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-093",
+  "policy_id": "POL-019",
+  "claimant": "Aditya Kale",
+  "incident_date": "2026-02-21",
+  "cause": "flood damage",
+  "invoice_total": 356000,
+  "claimed_amount": 356000,
+  "email": "Hello, I am claiming INR 356000 for flood damage on 2026-02-21. Please process under policy POL-019."
+}

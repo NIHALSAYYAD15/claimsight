@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-014",
+  "policy_id": "POL-003",
+  "claimant": "Diya Kulkarni",
+  "incident_date": "2025-10-18",
+  "cause": "burglary",
+  "invoice_total": 85000,
+  "claimed_amount": 85000,
+  "email": "Hello, I am claiming INR 85000 for burglary on 2025-10-18. Please process under policy POL-003."
+}

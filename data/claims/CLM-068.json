@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-068",
+  "policy_id": "POL-014",
+  "claimant": "Vikram Shinde",
+  "incident_date": "2025-10-05",
+  "cause": "appendectomy",
+  "invoice_total": 431000,
+  "claimed_amount": 431000,
+  "email": "Hello, I am claiming INR 431000 for appendectomy on 2025-10-05. Please process under policy POL-014."
+}

@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-079",
+  "policy_id": "POL-016",
+  "claimant": "Ananya More",
+  "incident_date": "2026-04-14",
+  "cause": "windshield breakage",
+  "invoice_total": 15000,
+  "claimed_amount": 15000,
+  "email": "Hello, I am claiming INR 15000 for windshield breakage on 2026-04-14. Please process under policy POL-016."
+}

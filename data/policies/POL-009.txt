@@ -1,0 +1,7 @@
+POLICY POL-009 - MOTOR INSURANCE
+Policyholder: Diya Kulkarni
+Clause 2.1 Policy period: 2025-02-22 to 2026-02-22. Incidents outside this period are not covered.
+Clause 3.1 Waiting period: Incidents within 0 days of the start date are not payable.
+Clause 4.1 Coverage limit: The maximum payable per claim is INR 500000.
+Clause 4.2 Deductible: INR 0 is deducted from every approved claim.
+Clause 5.1 Exclusions: The following are not covered: racing accident, driving without license.

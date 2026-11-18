@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-112",
+  "policy_id": "POL-023",
+  "claimant": "Rohan Deshmukh",
+  "incident_date": "2026-06-14",
+  "cause": "flood damage",
+  "invoice_total": 58000,
+  "claimed_amount": 58000,
+  "email": "Hello, I am claiming INR 58000 for flood damage on 2026-06-14. Please process under policy POL-023."
+}

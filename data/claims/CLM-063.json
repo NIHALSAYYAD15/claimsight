@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-063",
+  "policy_id": "POL-013",
+  "claimant": "Sneha Joshi",
+  "incident_date": "2025-11-28",
+  "cause": "driving without license",
+  "invoice_total": 45000,
+  "claimed_amount": 45000,
+  "email": "Hello, I am claiming INR 45000 for driving without license on 2025-11-28. Please process under policy POL-013."
+}

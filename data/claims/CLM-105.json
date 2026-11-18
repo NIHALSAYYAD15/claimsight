@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-105",
+  "policy_id": "POL-021",
+  "claimant": "Diya Kulkarni",
+  "incident_date": "2025-06-29",
+  "cause": "flood damage",
+  "invoice_total": 254000,
+  "claimed_amount": 254000,
+  "email": "Hello, I am claiming INR 254000 for flood damage on 2025-06-29. Please process under policy POL-021."
+}

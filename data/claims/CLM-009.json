@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-009",
+  "policy_id": "POL-002",
+  "claimant": "Rohan Deshmukh",
+  "incident_date": "2026-01-24",
+  "cause": "appendectomy",
+  "invoice_total": 80000,
+  "claimed_amount": 80000,
+  "email": "Hello, I am claiming INR 80000 for appendectomy on 2026-01-24. Please process under policy POL-002."
+}

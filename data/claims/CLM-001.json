@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-001",
+  "policy_id": "POL-001",
+  "claimant": "Aarav Patil",
+  "incident_date": "2025-07-28",
+  "cause": "war damage",
+  "invoice_total": 65000,
+  "claimed_amount": 65000,
+  "email": "Hello, I am claiming INR 65000 for war damage on 2025-07-28. Please process under policy POL-001."
+}

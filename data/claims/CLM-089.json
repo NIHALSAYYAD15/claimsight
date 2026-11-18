@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-089",
+  "policy_id": "POL-018",
+  "claimant": "Sneha Joshi",
+  "incident_date": "2026-11-20",
+  "cause": "fracture treatment",
+  "invoice_total": 19000,
+  "claimed_amount": 19000,
+  "email": "Hello, I am claiming INR 19000 for fracture treatment on 2026-11-20. Please process under policy POL-018."
+}

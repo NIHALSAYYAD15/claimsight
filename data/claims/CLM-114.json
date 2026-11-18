@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-114",
+  "policy_id": "POL-023",
+  "claimant": "Rohan Deshmukh",
+  "incident_date": "2026-10-21",
+  "cause": "collision damage",
+  "invoice_total": 48000,
+  "claimed_amount": 48000,
+  "email": "Hello, I am claiming INR 48000 for collision damage on 2026-10-21. Please process under policy POL-023."
+}

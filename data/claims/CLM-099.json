@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-099",
+  "policy_id": "POL-020",
+  "claimant": "Sneha Joshi",
+  "incident_date": "2025-04-05",
+  "cause": "theft",
+  "invoice_total": 89000,
+  "claimed_amount": 89000,
+  "email": "Hello, I am claiming INR 89000 for theft on 2025-04-05. Please process under policy POL-020."
+}

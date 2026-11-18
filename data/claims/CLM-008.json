@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-008",
+  "policy_id": "POL-002",
+  "claimant": "Rohan Deshmukh",
+  "incident_date": "2025-06-30",
+  "cause": "dengue treatment",
+  "invoice_total": 78000,
+  "claimed_amount": 78000,
+  "email": "Hello, I am claiming INR 78000 for dengue treatment on 2025-06-30. Please process under policy POL-002."
+}

@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-117",
+  "policy_id": "POL-024",
+  "claimant": "Aditya Kale",
+  "incident_date": "2026-06-18",
+  "cause": "cosmetic surgery",
+  "invoice_total": 72000,
+  "claimed_amount": 72000,
+  "email": "Hello, I am claiming INR 72000 for cosmetic surgery on 2026-06-18. Please process under policy POL-024."
+}

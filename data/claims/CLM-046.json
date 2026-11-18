@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-046",
+  "policy_id": "POL-010",
+  "claimant": "Meera Gaikwad",
+  "incident_date": "2026-04-06",
+  "cause": "collision damage",
+  "invoice_total": 29000,
+  "claimed_amount": 29000,
+  "email": "Hello, I am claiming INR 29000 for collision damage on 2026-04-06. Please process under policy POL-010."
+}

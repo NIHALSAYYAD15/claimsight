@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-097",
+  "policy_id": "POL-020",
+  "claimant": "Sneha Joshi",
+  "incident_date": "2025-06-18",
+  "cause": "windshield breakage",
+  "invoice_total": 65000,
+  "claimed_amount": 195000,
+  "email": "Hello, I am claiming INR 195000 for windshield breakage on 2025-06-18. Please process under policy POL-020."
+}

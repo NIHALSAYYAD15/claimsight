@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-140",
+  "policy_id": "POL-028",
+  "claimant": "Meera Gaikwad",
+  "incident_date": "2026-03-19",
+  "cause": "storm damage",
+  "invoice_total": 53000,
+  "claimed_amount": 106000,
+  "email": "Hello, I am claiming INR 106000 for storm damage on 2026-03-19. Please process under policy POL-028."
+}

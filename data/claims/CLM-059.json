@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-059",
+  "policy_id": "POL-012",
+  "claimant": "Vikram Shinde",
+  "incident_date": "2026-03-17",
+  "cause": "cosmetic surgery",
+  "invoice_total": 44000,
+  "claimed_amount": 44000,
+  "email": "Hello, I am claiming INR 44000 for cosmetic surgery on 2026-03-17. Please process under policy POL-012."
+}

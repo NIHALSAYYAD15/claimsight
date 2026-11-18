@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-069",
+  "policy_id": "POL-014",
+  "claimant": "Vikram Shinde",
+  "incident_date": "2026-02-18",
+  "cause": "hospitalization for fever",
+  "invoice_total": 425000,
+  "claimed_amount": 425000,
+  "email": "Hello, I am claiming INR 425000 for hospitalization for fever on 2026-02-18. Please process under policy POL-014."
+}

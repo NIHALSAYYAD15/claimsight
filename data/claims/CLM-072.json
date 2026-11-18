@@ -1,0 +1,10 @@
+{
+  "claim_id": "CLM-072",
+  "policy_id": "POL-015",
+  "claimant": "Vikram Shinde",
+  "incident_date": "2026-03-08",
+  "cause": "fracture treatment",
+  "invoice_total": 691000,
+  "claimed_amount": 691000,
+  "email": "Hello, I am claiming INR 691000 for fracture treatment on 2026-03-08. Please process under policy POL-015."
+}
