@@ -4,8 +4,8 @@
     "vector": 0.707,
     "hybrid": 0.847
   },
-  "n_llm_claims": 20,
+  "n_llm_claims": 150,
   "decision_acc": 1.0,
-  "clause_acc": 1.0,
+  "clause_acc": 0.993,
   "payable_acc": 1.0
 }

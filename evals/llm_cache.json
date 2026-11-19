@@ -118,5 +118,785 @@
     "clause": "4.1",
     "payable_amount": 71000,
     "reasoning": "Incident date is within policy period, outside waiting period, cause not excluded, and invoice total is below the coverage limit with zero deductible."
+  },
+  "CLM-002": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 69000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, cause is not excluded, invoice total is below the coverage limit, so the claim is approved with the deductible applied."
+  },
+  "CLM-003": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 69000,
+    "reasoning": "Incident is within policy period, not in waiting period, not excluded, and invoice total is below coverage limit, so claim is approved with deductible applied."
+  },
+  "CLM-004": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date 2026-04-07 falls outside the policy period of 2025-02-27 to 2026-02-27."
+  },
+  "CLM-005": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 7000,
+    "reasoning": "Incident is within policy period, not in waiting period, not excluded, and invoice total is below limit, so claim approved after deductible."
+  },
+  "CLM-006": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 40000,
+    "reasoning": "Incident is within policy period, outside waiting period, not excluded, and invoice total is below the coverage limit with zero deductible."
+  },
+  "CLM-007": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 20000,
+    "reasoning": "Incident is within policy period, outside the waiting period, not excluded, and invoice total is within the coverage limit, so the claim is approved."
+  },
+  "CLM-009": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 80000,
+    "reasoning": "Incident is within the policy period, beyond the waiting period, not excluded, and invoice total is below the coverage limit, so the claim is approved."
+  },
+  "CLM-010": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 87000,
+    "reasoning": "Incident is within policy period, outside waiting period, not excluded, and invoice total is below the coverage limit with a zero deductible."
+  },
+  "CLM-011": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 995000,
+    "reasoning": "Invoice total exceeds coverage limit, so payable is limit minus deductible."
+  },
+  "CLM-012": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 52000,
+    "reasoning": "Incident is within the policy period, not in the waiting period or exclusions, and invoice total is below the coverage limit, so the claim is approved with the deductible applied."
+  },
+  "CLM-013": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 36000,
+    "reasoning": "The incident is within the policy period, not in the waiting period or exclusions, and the invoice total is below the coverage limit, so the claim is approved with the deductible applied."
+  },
+  "CLM-014": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 80000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, and invoice total is below the coverage limit, so the claim is approved after applying the deductible."
+  },
+  "CLM-016": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 14000,
+    "reasoning": "Incident is within the policy period, after the waiting period, not excluded, and the invoice total is within the coverage limit, so the claim is approved."
+  },
+  "CLM-017": {
+    "decision": "DENIED",
+    "clause": "5.1",
+    "payable_amount": 0,
+    "reasoning": "Cause is excluded under clause 5.1."
+  },
+  "CLM-018": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 26000,
+    "reasoning": "The incident is within the policy period, outside the waiting period, not excluded, invoice is below the coverage limit, and deductible is zero, so the claim is approved."
+  },
+  "CLM-019": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 62000,
+    "reasoning": "The incident is within the policy period, outside the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved."
+  },
+  "CLM-020": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 55000,
+    "reasoning": "The incident is within the policy period, outside the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved."
+  },
+  "CLM-021": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 190000,
+    "reasoning": "Invoice exceeds coverage limit, so payable is limited to INR 200,000 minus deductible INR 10,000."
+  },
+  "CLM-023": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 24000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, invoice total is below the coverage limit, so deductible applies."
+  },
+  "CLM-024": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 23000,
+    "reasoning": "Incident is within the policy period, not in the waiting period or exclusions, invoice total is below the coverage limit, so deductible applies."
+  },
+  "CLM-025": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 56000,
+    "reasoning": "Claim meets policy terms; invoice total is within limit and deductible of INR 10000 applies."
+  },
+  "CLM-026": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 74000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, invoice total is below the coverage limit, so deductible applies."
+  },
+  "CLM-027": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 26000,
+    "reasoning": "Incident is within the policy period, not in the waiting period or exclusions, and the invoice total is below the coverage limit, so the claim is approved after applying the INR 5,000 deductible."
+  },
+  "CLM-028": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 195000,
+    "reasoning": "Invoice total exceeds the coverage limit, so payable amount is the limit minus the deductible."
+  },
+  "CLM-030": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 195000,
+    "reasoning": "Invoice total exceeds the coverage limit, so payable is the limit minus the deductible."
+  },
+  "CLM-031": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 37000,
+    "reasoning": "Incident is within the policy period, not in the waiting period or exclusions, and invoice total is below the coverage limit, so the claim is approved after applying the deductible."
+  },
+  "CLM-032": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 7000,
+    "reasoning": "Incident is covered, cause not excluded, amount below limit, deductible applied."
+  },
+  "CLM-033": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 67000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved with the deductible applied."
+  },
+  "CLM-034": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 10000,
+    "reasoning": "Incident is covered, not excluded, and after applying the INR 10,000 deductible the payable amount is INR 10,000."
+  },
+  "CLM-035": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 8000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, not excluded, and invoice total is below the coverage limit, so after applying the INR 10,000 deductible the payable amount is INR 8,000."
+  },
+  "CLM-037": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 84000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved."
+  },
+  "CLM-038": {
+    "decision": "DENIED",
+    "clause": "5.1",
+    "payable_amount": 0,
+    "reasoning": "The cause 'racing accident' is listed in the exclusions (clause 5.1)."
+  },
+  "CLM-039": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 48000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, invoice total is below the coverage limit and deductible is zero."
+  },
+  "CLM-040": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 11000,
+    "reasoning": "Incident is within policy period, not in waiting period, cause not excluded, invoice total below limit, and deductible is zero, so claim is approved for the invoice amount."
+  },
+  "CLM-041": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 37000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved."
+  },
+  "CLM-042": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 18000,
+    "reasoning": "Incident is within policy period, not in waiting period, not excluded, and invoice total is below the coverage limit, so claim is approved."
+  },
+  "CLM-044": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 80000,
+    "reasoning": "Incident date is within policy period, not in waiting period, cause is not excluded, and invoice total is below the coverage limit, so claim is approved."
+  },
+  "CLM-045": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 43000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, cause is not excluded, amount is below the coverage limit, and deductible is zero, so the claim is approved."
+  },
+  "CLM-046": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 29000,
+    "reasoning": "Incident is within policy period, not in waiting period, not excluded, and invoice total is below the coverage limit, so claim is approved with deductible zero."
+  },
+  "CLM-047": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 36000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved."
+  },
+  "CLM-048": {
+    "decision": "DENIED",
+    "clause": "5.1",
+    "payable_amount": 0,
+    "reasoning": "The cause 'driving without license' is listed in the exclusions (clause 5.1)."
+  },
+  "CLM-049": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 64000,
+    "reasoning": "Incident is within policy period, not in waiting period, not excluded, and invoice total is below the coverage limit, so claim is approved."
+  },
+  "CLM-051": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 61000,
+    "reasoning": "Incident is within policy period, not in waiting period, not excluded, and invoice total is below coverage limit, so claim approved after deductible."
+  },
+  "CLM-052": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 195000,
+    "reasoning": "Invoice total exceeds coverage limit, so payable is limit minus deductible."
+  },
+  "CLM-053": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 79000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, cause is not excluded, amount is below the coverage limit, so the claim is approved with the deductible applied."
+  },
+  "CLM-054": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 10000,
+    "reasoning": "Incident is within the policy period, not in the waiting period or exclusions, and invoice total is below the coverage limit, so the claim is approved after applying the deductible."
+  },
+  "CLM-055": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 50000,
+    "reasoning": "Incident is within policy period, not in waiting period, not excluded, and invoice total is below coverage limit, so claim approved after deductible."
+  },
+  "CLM-056": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "Incident date is outside the policy period."
+  },
+  "CLM-058": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 22000,
+    "reasoning": "Incident is within policy period, beyond waiting period, not excluded, and invoice total is below the coverage limit, so claim is approved after applying the deductible."
+  },
+  "CLM-059": {
+    "decision": "DENIED",
+    "clause": "5.1",
+    "payable_amount": 0,
+    "reasoning": "The claim is denied because the cause 'cosmetic surgery' is listed in the policy exclusions (clause 5.1)."
+  },
+  "CLM-060": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 60000,
+    "reasoning": "Incident is within policy period, beyond waiting period, not excluded, and invoice total is below the coverage limit, so the claim is approved after applying the deductible."
+  },
+  "CLM-061": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date 2026-11-16 falls outside the policy period 2025-10-23 to 2026-10-23."
+  },
+  "CLM-062": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date 2026-11-22 falls outside the policy period 2025-10-23 to 2026-10-23."
+  },
+  "CLM-063": {
+    "decision": "DENIED",
+    "clause": "5.1",
+    "payable_amount": 0,
+    "reasoning": "The cause 'driving without license' is listed in the exclusions (clause 5.1)."
+  },
+  "CLM-065": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 43000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved."
+  },
+  "CLM-066": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 65000,
+    "reasoning": "The incident is within the policy period, outside the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved."
+  },
+  "CLM-067": {
+    "decision": "DENIED",
+    "clause": "5.1",
+    "payable_amount": 0,
+    "reasoning": "Cause is listed in exclusions."
+  },
+  "CLM-068": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 200000,
+    "reasoning": "Invoice total exceeds the coverage limit, so payable is limited to INR 200,000 per clause 4.1."
+  },
+  "CLM-069": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 200000,
+    "reasoning": "Invoice exceeds coverage limit, payable limited to policy maximum."
+  },
+  "CLM-070": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date 2026-06-13 falls outside the policy period 2025-04-27 to 2026-04-27."
+  },
+  "CLM-072": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 490000,
+    "reasoning": "Invoice exceeds the INR 500,000 limit, so payable is limit minus deductible."
+  },
+  "CLM-073": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 48000,
+    "reasoning": "Incident is within policy period, outside the waiting period, not excluded, invoice is below the coverage limit, so deductible applies."
+  },
+  "CLM-074": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 70000,
+    "reasoning": "Incident is within policy period, outside waiting period, not excluded, invoice below limit, so deductible applies."
+  },
+  "CLM-075": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 26000,
+    "reasoning": "Incident is within the policy period, beyond the waiting period, not excluded, and invoice total is below the coverage limit, so the claim is approved after applying the deductible."
+  },
+  "CLM-076": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 500000,
+    "reasoning": "Invoice total exceeds the coverage limit, so payable amount is limited to the policy maximum."
+  },
+  "CLM-077": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date 2026-04-17 falls outside the policy period 2025-03-25 to 2026-03-25."
+  },
+  "CLM-079": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date 2026-04-14 falls outside the policy period 2025-03-25 to 2026-03-25."
+  },
+  "CLM-080": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 63000,
+    "reasoning": "Incident is within policy period, not in waiting period, cause not excluded, invoice total below coverage limit, and deductible is zero."
+  },
+  "CLM-081": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date 2026-06-06 falls outside the policy period of 2025-05-17 to 2026-05-17."
+  },
+  "CLM-082": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 54000,
+    "reasoning": "Incident is within policy period, not in waiting period, not excluded, and invoice total is below limit, so claim approved after deductible."
+  },
+  "CLM-083": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date 2026-06-20 falls outside the policy period 2025-05-17 to 2026-05-17."
+  },
+  "CLM-084": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 58000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, and invoice total is below the coverage limit, so claim is approved after applying the deductible."
+  },
+  "CLM-086": {
+    "decision": "DENIED",
+    "clause": "5.1",
+    "payable_amount": 0,
+    "reasoning": "The claim is denied because the cause 'dental whitening' is listed in the exclusions (clause 5.1)."
+  },
+  "CLM-087": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 62000,
+    "reasoning": "Incident is within policy period, outside the waiting period, not excluded, invoice total is below the coverage limit, so deductible applies."
+  },
+  "CLM-088": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date 2026-11-15 falls outside the policy period 2025-10-01 to 2026-10-01."
+  },
+  "CLM-089": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date is outside the policy period."
+  },
+  "CLM-090": {
+    "decision": "DENIED",
+    "clause": "3.1",
+    "payable_amount": 0,
+    "reasoning": "The incident occurred within the 30\u2011day waiting period after policy start, so coverage is denied per clause 3.1."
+  },
+  "CLM-091": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 29000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, and invoice total is below the coverage limit, so the claim is approved after applying the deductible."
+  },
+  "CLM-093": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 190000,
+    "reasoning": "Invoice total exceeds the INR 200,000 coverage limit, so payable is limited to the limit minus the INR 10,000 deductible."
+  },
+  "CLM-094": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 49000,
+    "reasoning": "Incident is within the policy period, not in the waiting period or exclusions, and invoice total is below the coverage limit, so the claim is approved after applying the deductible."
+  },
+  "CLM-095": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 0,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, invoice is below the coverage limit, deductible applies resulting in zero payable."
+  },
+  "CLM-096": {
+    "decision": "DENIED",
+    "clause": "5.1",
+    "payable_amount": 0,
+    "reasoning": "The cause 'racing accident' is listed in the policy exclusions, so the claim is denied."
+  },
+  "CLM-097": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 60000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved with the deductible applied."
+  },
+  "CLM-098": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 56000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, and invoice total is below coverage limit, so claim approved with deductible applied."
+  },
+  "CLM-100": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 77000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, invoice total below limit, so deductible applies."
+  },
+  "CLM-101": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 54000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, cause is not excluded, amount is below the coverage limit, so the claim is approved with the INR 10,000 deductible applied."
+  },
+  "CLM-102": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 6000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, cause is not excluded, amount is below the coverage limit, so the claim is approved with the INR 10,000 deductible applied."
+  },
+  "CLM-103": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 27000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, invoice total is below the coverage limit, so deductible applies."
+  },
+  "CLM-104": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 48000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, invoice total below limit, deductible applied."
+  },
+  "CLM-105": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 190000,
+    "reasoning": "Invoice total exceeds the coverage limit, so payable is the limit minus the deductible."
+  },
+  "CLM-107": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 30000,
+    "reasoning": "The incident is within the policy period, outside the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved with the deductible applied."
+  },
+  "CLM-108": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 21000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, and invoice total is below coverage limit, so claim approved after deductible."
+  },
+  "CLM-109": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 32000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, cause is not excluded, invoice total is below the coverage limit, so the claim is approved with the INR 5,000 deductible applied."
+  },
+  "CLM-110": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 82000,
+    "reasoning": "Incident is within the policy period, after the waiting period, not excluded, and invoice total is below the coverage limit, so the claim is approved with the deductible applied."
+  },
+  "CLM-111": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 23000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved."
+  },
+  "CLM-112": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 58000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved."
+  },
+  "CLM-114": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date 2026-10-21 falls outside the policy period 2025-08-23 to 2026-08-23."
+  },
+  "CLM-115": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 78000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved."
+  },
+  "CLM-116": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 490000,
+    "reasoning": "Invoice exceeds the INR 500,000 coverage limit, so payable is limit minus deductible."
+  },
+  "CLM-117": {
+    "decision": "DENIED",
+    "clause": "5.1",
+    "payable_amount": 0,
+    "reasoning": "The cause 'cosmetic surgery' is listed in the exclusions (clause 5.1)."
+  },
+  "CLM-118": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 490000,
+    "reasoning": "Invoice exceeds coverage limit, so payable is limit minus deductible."
+  },
+  "CLM-119": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 66000,
+    "reasoning": "Incident is within policy period, outside the waiting period, not excluded, invoice is below the coverage limit, so deductible applies."
+  },
+  "CLM-121": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 16000,
+    "reasoning": "Incident is within policy period, not in waiting period, not excluded, and invoice total is below coverage limit, so claim approved after deductible."
+  },
+  "CLM-122": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 64000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, not excluded, and the invoice total is below the coverage limit, so the claim is approved after applying the INR 5,000 deductible."
+  },
+  "CLM-123": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 495000,
+    "reasoning": "Invoice total exceeds the INR 500,000 coverage limit, so payable is the limit minus the INR 5,000 deductible."
+  },
+  "CLM-124": {
+    "decision": "DENIED",
+    "clause": "5.1",
+    "payable_amount": 0,
+    "reasoning": "The cause 'wear and tear' is listed in the policy exclusions, so the claim is denied."
+  },
+  "CLM-125": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 81000,
+    "reasoning": "Incident is within policy period, not in waiting period, cause not excluded, and invoice total is below coverage limit, so claim approved after deductible."
+  },
+  "CLM-126": {
+    "decision": "DENIED",
+    "clause": "3.1",
+    "payable_amount": 0,
+    "reasoning": "The incident occurred within the 30\u2011day waiting period after the policy start date."
+  },
+  "CLM-128": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date 2026-05-06 falls outside the policy period 2025-03-12 to 2026-03-12."
+  },
+  "CLM-129": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 38000,
+    "reasoning": "Incident date is within policy period, outside waiting period, not excluded, and invoice total is below the coverage limit, so claim is approved."
+  },
+  "CLM-130": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 500000,
+    "reasoning": "Invoice total exceeds the INR 500,000 coverage limit, so the claim is partially payable up to the limit."
+  },
+  "CLM-131": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 80000,
+    "reasoning": "Incident is within policy period, outside waiting period, not excluded, and invoice total is below the coverage limit, so claim is approved."
+  },
+  "CLM-132": {
+    "decision": "DENIED",
+    "clause": "5.1",
+    "payable_amount": 0,
+    "reasoning": "The cause 'dental whitening' is listed in the exclusions, so the claim is denied per clause 5.1."
+  },
+  "CLM-133": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date 2026-03-10 falls outside the policy period 2025-02-26 to 2026-02-26."
+  },
+  "CLM-135": {
+    "decision": "DENIED",
+    "clause": "3.1",
+    "payable_amount": 0,
+    "reasoning": "The incident occurred within the 30\u2011day waiting period after the policy start date, so coverage is denied per clause 3.1."
+  },
+  "CLM-136": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date 2026-08-10 falls outside the policy period 2025-08-05 to 2026-08-05."
+  },
+  "CLM-137": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 11000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, and invoice total is below coverage limit, so claim approved after deductible."
+  },
+  "CLM-138": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 67000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, invoice total is below the coverage limit, so deductible applies."
+  },
+  "CLM-139": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 41000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, cause is not excluded, amount is below the coverage limit, so the claim is approved with the INR 5,000 deductible applied."
+  },
+  "CLM-140": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 48000,
+    "reasoning": "Incident is within the policy period, not in the waiting period, cause is not excluded, invoice total is below the coverage limit, so deductible applies per clause 4.2."
+  },
+  "CLM-141": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 14000,
+    "reasoning": "Incident is within policy period, not in waiting period, not excluded, and invoice total is below coverage limit, so claim approved with deductible applied."
+  },
+  "CLM-142": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 9000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, invoice total is below the coverage limit, so deductible applies."
+  },
+  "CLM-143": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 72000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, and invoice total is below coverage limit, so claim approved with deductible applied."
+  },
+  "CLM-144": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 15000,
+    "reasoning": "Incident is within the policy period, not in the waiting period or exclusions, invoice is below the coverage limit, so deductible applies."
+  },
+  "CLM-145": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 490000,
+    "reasoning": "Invoice total exceeds the INR 500,000 coverage limit, so payable amount is the limit minus the INR 10,000 deductible."
+  },
+  "CLM-146": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 54000,
+    "reasoning": "Incident is within policy period, not in waiting period or exclusions, invoice total is below the coverage limit, so deductible applies."
+  },
+  "CLM-147": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 80000,
+    "reasoning": "Incident is within policy period, beyond the waiting period, not excluded, invoice is below the coverage limit, so deductible applies."
+  },
+  "CLM-148": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident date 2026-03-20 falls outside the policy period ending 2026-02-28."
+  },
+  "CLM-149": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 0,
+    "reasoning": "Claim is within policy period, outside waiting period, not excluded, and deductible equals invoice total, resulting in zero payable."
+  },
+  "CLM-150": {
+    "decision": "PARTIAL",
+    "clause": "4.1",
+    "payable_amount": 490000,
+    "reasoning": "Invoice total exceeds the coverage limit, so payable amount is the limit minus the deductible."
   }
 }
