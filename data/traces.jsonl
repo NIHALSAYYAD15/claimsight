@@ -1,0 +1,60 @@
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1345, "prompt_tokens": 452, "completion_tokens": 324, "cost_usd": 0.0002622, "ts": 1795177561.85}
+{"type": "request", "claim_id": "64ac997cbecd", "decision": "APPROVED", "latency_ms": 1352, "human_review": true, "cached": false, "ts": 1795177561.85}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1057, "prompt_tokens": 446, "completion_tokens": 329, "cost_usd": 0.00026430000000000003, "ts": 1795177563.158}
+{"type": "request", "claim_id": "387c699749ad", "decision": "APPROVED", "latency_ms": 1062, "human_review": false, "cached": false, "ts": 1795177563.163}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1203, "prompt_tokens": 433, "completion_tokens": 374, "cost_usd": 0.00028935, "ts": 1795177564.611}
+{"type": "request", "claim_id": "50f7665dc9e3", "decision": "APPROVED", "latency_ms": 1210, "human_review": true, "cached": false, "ts": 1795177564.611}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1002, "prompt_tokens": 442, "completion_tokens": 280, "cost_usd": 0.0002343, "ts": 1795177565.874}
+{"type": "request", "claim_id": "01aeaadd14a8", "decision": "APPROVED", "latency_ms": 1008, "human_review": false, "cached": false, "ts": 1795177565.879}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 967, "prompt_tokens": 425, "completion_tokens": 355, "cost_usd": 0.00027675, "ts": 1795177567.101}
+{"type": "request", "claim_id": "8676593286b3", "decision": "PARTIAL", "latency_ms": 973, "human_review": false, "cached": false, "ts": 1795177567.121}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1064, "prompt_tokens": 437, "completion_tokens": 312, "cost_usd": 0.00025275, "ts": 1795177568.402}
+{"type": "request", "claim_id": "7e8d3417cc0f", "decision": "DENIED", "latency_ms": 1069, "human_review": false, "cached": false, "ts": 1795177568.406}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1157, "prompt_tokens": 426, "completion_tokens": 354, "cost_usd": 0.0002763, "ts": 1795177569.765}
+{"type": "request", "claim_id": "aac7461a1d4c", "decision": "APPROVED", "latency_ms": 1163, "human_review": true, "cached": false, "ts": 1795177569.769}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1259, "prompt_tokens": 428, "completion_tokens": 288, "cost_usd": 0.000237, "ts": 1795177571.248}
+{"type": "request", "claim_id": "b0882f4071be", "decision": "APPROVED", "latency_ms": 1263, "human_review": true, "cached": false, "ts": 1795177571.252}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1030, "prompt_tokens": 430, "completion_tokens": 267, "cost_usd": 0.0002247, "ts": 1795177572.483}
+{"type": "request", "claim_id": "a4969803024b", "decision": "PARTIAL", "latency_ms": 1036, "human_review": false, "cached": false, "ts": 1795177572.487}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 837, "prompt_tokens": 429, "completion_tokens": 283, "cost_usd": 0.00023414999999999997, "ts": 1795177573.547}
+{"type": "request", "claim_id": "14cf92e8af72", "decision": "DENIED", "latency_ms": 843, "human_review": false, "cached": false, "ts": 1795177573.547}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 2245, "prompt_tokens": 426, "completion_tokens": 297, "cost_usd": 0.0002421, "ts": 1795177575.991}
+{"type": "request", "claim_id": "e01eabfabb7c", "decision": "APPROVED", "latency_ms": 2248, "human_review": false, "cached": false, "ts": 1795177575.991}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1247, "prompt_tokens": 451, "completion_tokens": 318, "cost_usd": 0.00025844999999999997, "ts": 1795177577.449}
+{"type": "request", "claim_id": "e7e1d7fc01ad", "decision": "APPROVED", "latency_ms": 1254, "human_review": true, "cached": false, "ts": 1795177577.449}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1157, "prompt_tokens": 443, "completion_tokens": 336, "cost_usd": 0.00026805000000000004, "ts": 1795177578.829}
+{"type": "request", "claim_id": "f6d1eda2e69d", "decision": "DENIED", "latency_ms": 1163, "human_review": false, "cached": false, "ts": 1795177578.833}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1321, "prompt_tokens": 435, "completion_tokens": 303, "cost_usd": 0.00024704999999999996, "ts": 1795177580.375}
+{"type": "request", "claim_id": "3ed09e025561", "decision": "APPROVED", "latency_ms": 1325, "human_review": false, "cached": false, "ts": 1795177580.379}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1170, "prompt_tokens": 468, "completion_tokens": 339, "cost_usd": 0.00027360000000000004, "ts": 1795177581.776}
+{"type": "request", "claim_id": "148edba71ae0", "decision": "DENIED", "latency_ms": 1175, "human_review": true, "cached": false, "ts": 1795177581.78}
+{"type": "cache_hit", "claim_id": "64ac997cbecd", "ts": 1795177584.036}
+{"type": "request", "claim_id": "64ac997cbecd", "decision": "APPROVED", "latency_ms": 3, "human_review": true, "cached": true, "ts": 1795177584.036}
+{"type": "cache_hit", "claim_id": "387c699749ad", "ts": 1795177584.22}
+{"type": "request", "claim_id": "387c699749ad", "decision": "APPROVED", "latency_ms": 2, "human_review": false, "cached": true, "ts": 1795177584.22}
+{"type": "cache_hit", "claim_id": "50f7665dc9e3", "ts": 1795177584.417}
+{"type": "request", "claim_id": "50f7665dc9e3", "decision": "APPROVED", "latency_ms": 2, "human_review": true, "cached": true, "ts": 1795177584.417}
+{"type": "cache_hit", "claim_id": "01aeaadd14a8", "ts": 1795177584.627}
+{"type": "request", "claim_id": "01aeaadd14a8", "decision": "APPROVED", "latency_ms": 3, "human_review": false, "cached": true, "ts": 1795177584.627}
+{"type": "cache_hit", "claim_id": "8676593286b3", "ts": 1795177584.835}
+{"type": "request", "claim_id": "8676593286b3", "decision": "PARTIAL", "latency_ms": 2, "human_review": false, "cached": true, "ts": 1795177584.835}
+{"type": "cache_hit", "claim_id": "7e8d3417cc0f", "ts": 1795177585.04}
+{"type": "request", "claim_id": "7e8d3417cc0f", "decision": "DENIED", "latency_ms": 2, "human_review": false, "cached": true, "ts": 1795177585.04}
+{"type": "cache_hit", "claim_id": "aac7461a1d4c", "ts": 1795177585.302}
+{"type": "request", "claim_id": "aac7461a1d4c", "decision": "APPROVED", "latency_ms": 2, "human_review": true, "cached": true, "ts": 1795177585.303}
+{"type": "cache_hit", "claim_id": "b0882f4071be", "ts": 1795177585.489}
+{"type": "request", "claim_id": "b0882f4071be", "decision": "APPROVED", "latency_ms": 2, "human_review": true, "cached": true, "ts": 1795177585.489}
+{"type": "cache_hit", "claim_id": "a4969803024b", "ts": 1795177585.701}
+{"type": "request", "claim_id": "a4969803024b", "decision": "PARTIAL", "latency_ms": 2, "human_review": false, "cached": true, "ts": 1795177585.702}
+{"type": "cache_hit", "claim_id": "14cf92e8af72", "ts": 1795177585.899}
+{"type": "request", "claim_id": "14cf92e8af72", "decision": "DENIED", "latency_ms": 2, "human_review": false, "cached": true, "ts": 1795177585.9}
+{"type": "cache_hit", "claim_id": "e01eabfabb7c", "ts": 1795177586.092}
+{"type": "request", "claim_id": "e01eabfabb7c", "decision": "APPROVED", "latency_ms": 2, "human_review": false, "cached": true, "ts": 1795177586.092}
+{"type": "cache_hit", "claim_id": "e7e1d7fc01ad", "ts": 1795177586.293}
+{"type": "request", "claim_id": "e7e1d7fc01ad", "decision": "APPROVED", "latency_ms": 2, "human_review": true, "cached": true, "ts": 1795177586.293}
+{"type": "cache_hit", "claim_id": "f6d1eda2e69d", "ts": 1795177586.49}
+{"type": "request", "claim_id": "f6d1eda2e69d", "decision": "DENIED", "latency_ms": 2, "human_review": false, "cached": true, "ts": 1795177586.49}
+{"type": "cache_hit", "claim_id": "3ed09e025561", "ts": 1795177586.754}
+{"type": "request", "claim_id": "3ed09e025561", "decision": "APPROVED", "latency_ms": 2, "human_review": false, "cached": true, "ts": 1795177586.754}
+{"type": "cache_hit", "claim_id": "148edba71ae0", "ts": 1795177587.015}
+{"type": "request", "claim_id": "148edba71ae0", "decision": "DENIED", "latency_ms": 2, "human_review": true, "cached": true, "ts": 1795177587.017}

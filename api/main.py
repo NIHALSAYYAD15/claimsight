@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI
 from groq import Groq
 from pydantic import BaseModel
+from agents import trace
 from agents.graph import make_app
 
 load_dotenv()
@@ -24,8 +25,12 @@ def health():
 def analyze(body: ClaimIn):
     t0 = time.perf_counter()
     cid = hashlib.sha256(body.text.encode()).hexdigest()[:12]
+    was_cached = cid in cache
     out = graph.invoke({"claim_id": cid, "raw": body.text})
     flags = out.get("flags", [])
+    latency = round((time.perf_counter() - t0) * 1000)
+    trace.log({"type": "request", "claim_id": cid, "decision": out["result"]["decision"],
+               "latency_ms": latency, "human_review": bool(flags), "cached": was_cached})
     return {
         "claim_id": cid,
         "policy_id": out.get("policy_id"),
@@ -36,5 +41,10 @@ def analyze(body: ClaimIn):
         "flags": flags,
         "human_review_required": bool(flags),
         "extracted": out.get("extracted", {}),
-        "latency_ms": round((time.perf_counter() - t0) * 1000),
+        "latency_ms": latency,
     }
+
+
+@api.get("/metrics")
+def metrics():
+    return trace.summarize()

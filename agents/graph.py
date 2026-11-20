@@ -2,6 +2,7 @@ import json, re, time
 from typing import Optional, TypedDict
 from pydantic import BaseModel, ValidationError
 from langgraph.graph import StateGraph, START, END
+from agents import trace
 from agents.rules import load_policies, resolve_policy, apply_rules
 
 MODEL = "openai/gpt-oss-120b"
@@ -42,21 +43,28 @@ class State(TypedDict, total=False):
 
 
 def call_llm(client, raw):
-    for _ in range(3):
+    for attempt in range(3):
+        t0 = time.perf_counter()
         try:
             r = client.chat.completions.create(
                 model=MODEL, temperature=0,
                 messages=[{"role": "system", "content": EXTRACT_PROMPT},
                           {"role": "user", "content": raw}])
+            u = r.usage
+            trace.log({"type": "llm_call", "ok": True, "attempt": attempt,
+                       "latency_ms": round((time.perf_counter() - t0) * 1000),
+                       "prompt_tokens": u.prompt_tokens, "completion_tokens": u.completion_tokens,
+                       "cost_usd": trace.cost(u.prompt_tokens, u.completion_tokens)})
             data = json.loads(re.search(r"\{.*\}", r.choices[0].message.content, re.S).group(0))
             return Extracted(**data).model_dump()
         except ValidationError:
+            trace.log({"type": "llm_call", "ok": False, "error": "validation"})
             return {}
         except Exception as e:
+            trace.log({"type": "llm_call", "ok": False, "error": str(e)[:100]})
             print("  retrying after error:", str(e)[:80])
             time.sleep(30)
     return {}
-
 
 def make_app(client, cache, save_cache, pause=10):
     policies = load_policies()
@@ -64,6 +72,7 @@ def make_app(client, cache, save_cache, pause=10):
     def extract_node(s):
         cid = s["claim_id"]
         if cid in cache:
+            trace.log({"type": "cache_hit", "claim_id": cid})
             return {"extracted": cache[cid]}
         ex = call_llm(client, s["raw"])
         if ex:
