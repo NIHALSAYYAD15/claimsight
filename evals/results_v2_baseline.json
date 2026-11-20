@@ -1,0 +1,17 @@
+{
+  "n": 40,
+  "decision_and_payable_acc": 0.45,
+  "by_slice": {
+    "injection=False": "16/37",
+    "injection=True": "2/3",
+    "ref=id": "14/31",
+    "ref=name": "4/9",
+    "scenario=boundary": "3/5",
+    "scenario=excluded": "2/8",
+    "scenario=fraud": "5/8",
+    "scenario=ok": "4/7",
+    "scenario=outside": "1/4",
+    "scenario=overlimit": "0/3",
+    "scenario=waiting": "3/5"
+  }
+}

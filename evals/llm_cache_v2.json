@@ -1,0 +1,242 @@
+{
+  "CLM2-001": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident occurred on 2026-09-02, which is outside the policy period ending 2026-08-24."
+  },
+  "CLM2-004": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 79000,
+    "reasoning": "Incident is within the policy period and not excluded; deductible applied per clause 4.2."
+  },
+  "CLM2-007": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 0,
+    "reasoning": "Bill total equals deductible, resulting in zero payable."
+  },
+  "CLM2-010": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 456000,
+    "reasoning": "Incident date is within policy period and no exclusions or limits apply, so full bill is approved."
+  },
+  "CLM2-013": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 15000,
+    "reasoning": "The incident date is within the policy period, no exclusions apply, and after applying the INR 5,000 deductible to the INR 20,000 bill, the payable amount is INR 15,000."
+  },
+  "CLM2-016": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 17000,
+    "reasoning": "Incident falls within policy period and no exclusions apply, so claim is approved with the standard INR 10,000 deductible."
+  },
+  "CLM2-019": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "The incident on 2025-01-25 occurs before the start of all listed policy periods, thus outside coverage."
+  },
+  "CLM2-022": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 58000,
+    "reasoning": "Incident date is within policy period and no exclusions or limits apply, so full bill amount is payable."
+  },
+  "CLM2-025": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 64000,
+    "reasoning": "The incident is within the policy period, not in the waiting period or excluded, and the bill total is below the coverage limit, so the claim is approved with the deductible applied."
+  },
+  "CLM2-028": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 69000,
+    "reasoning": "The incident date is within the policy period, not in the waiting period, no exclusions apply, and no deductible is specified, so the full bill is approved."
+  },
+  "CLM2-031": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 40000,
+    "reasoning": "The claim meets all provided policy conditions and after applying the INR\u202f10,000 deductible, the payable amount is INR\u202f40,000."
+  },
+  "CLM2-034": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 32000,
+    "reasoning": "The incident date is within the policy period and no exclusions or limits apply, so the full bill amount is approved."
+  },
+  "CLM2-037": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "Policy POL019 is not listed, so the incident date cannot be verified within a covered period."
+  },
+  "CLM2-040": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 8000,
+    "reasoning": "The incident occurred within the policy period and the bill total exceeds the deductible, so the claim is approved with payable amount after deductible."
+  },
+  "CLM2-043": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 68000,
+    "reasoning": "Incident is within policy period and not excluded; bill total minus deductible yields payable amount."
+  },
+  "CLM2-046": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 31000,
+    "reasoning": "The incident occurred within the policy period and after any waiting period, and after applying the INR\u202f10,000 deductible the claim is payable."
+  },
+  "CLM2-049": {
+    "decision": "DENIED",
+    "clause": "3.1",
+    "payable_amount": 0,
+    "reasoning": "The incident occurred within the 30\u2011day waiting period of the policy."
+  },
+  "CLM2-052": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 89000,
+    "reasoning": "The claim meets no exclusion or waiting period criteria and is payable in full."
+  },
+  "CLM2-055": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 9000,
+    "reasoning": "The incident date is within the policy period and no exclusions apply, so the claim is approved with the deductible applied."
+  },
+  "CLM2-058": {
+    "decision": "DENIED",
+    "clause": "N/A",
+    "payable_amount": 0,
+    "reasoning": "Policy POL001 is not listed among the provided policy clauses, so coverage cannot be determined."
+  },
+  "CLM2-061": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 87000,
+    "reasoning": "The incident date is within the policy period, no waiting period or exclusion applies, and the bill total is within coverage limits."
+  },
+  "CLM2-064": {
+    "decision": "APPROVED",
+    "clause": "N/A",
+    "payable_amount": 10000,
+    "reasoning": "No denial criteria were met, so the claim is approved for the full bill amount."
+  },
+  "CLM2-067": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 26000,
+    "reasoning": "The incident date is within the policy period and the bill total exceeds the zero deductible, so the full amount is payable."
+  },
+  "CLM2-070": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 74000,
+    "reasoning": "The claim meets all policy conditions and, after applying the INR\u202f10,000 deductible per clause\u202f4.2, the payable amount is INR\u202f74,000."
+  },
+  "CLM2-073": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "Incident date falls outside all provided policy periods and no matching policy period for the stated start date, so coverage is denied."
+  },
+  "CLM2-076": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 60000,
+    "reasoning": "The claim meets no denial criteria and, with no deductible specified, the full bill amount is payable."
+  },
+  "CLM2-079": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 33000,
+    "reasoning": "The incident occurred within the policy period, is not excluded, and the bill total does not exceed any stated limit, so the claim is approved."
+  },
+  "CLM2-082": {
+    "decision": "DENIED",
+    "clause": "2.1",
+    "payable_amount": 0,
+    "reasoning": "Policy POL026 is not present in the provided clauses, so coverage cannot be determined."
+  },
+  "CLM2-085": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 61000,
+    "reasoning": "The incident is within the policy period, outside the waiting period, not excluded, and the bill is below the coverage limit, so the claim is approved with a payable amount equal to the total bill."
+  },
+  "CLM2-088": {
+    "decision": "APPROVED",
+    "clause": "2.1",
+    "payable_amount": 83000,
+    "reasoning": "Incident date is within the policy period and no deductible or exclusions apply."
+  },
+  "CLM2-091": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 17000,
+    "reasoning": "Incident date falls within policy period of POL-026 and no deductible or exclusions apply, so the full bill is approved."
+  },
+  "CLM2-094": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 36000,
+    "reasoning": "The incident is within the policy period, not in the waiting period, not excluded, and the bill total is below the coverage limit with a zero deductible."
+  },
+  "CLM2-097": {
+    "decision": "DENIED",
+    "clause": "5.1",
+    "payable_amount": 0,
+    "reasoning": "The claim is for war damage, which is listed as an exclusion in clause 5.1."
+  },
+  "CLM2-100": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 6000,
+    "reasoning": "Incident date is within policy period, bill is below coverage limit, and after applying the INR 5000 deductible the claim is approved."
+  },
+  "CLM2-103": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 47000,
+    "reasoning": "The incident date is within the policy period, the bill total is below the coverage limit, and there is no deductible, so the claim is approved."
+  },
+  "CLM2-106": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 18000,
+    "reasoning": "Incident is within policy period, not in waiting period, not excluded, and bill total is below coverage limit, so claim is approved with deductible applied."
+  },
+  "CLM2-109": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 633000,
+    "reasoning": "The incident date falls within the policy period, is not within a waiting period, and no exclusions or coverage limits apply, so the full bill amount is payable."
+  },
+  "CLM2-112": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 47000,
+    "reasoning": "The incident date is within the policy period, not in the waiting period, not excluded, and the bill total is below the coverage limit, so the claim is approved."
+  },
+  "CLM2-115": {
+    "decision": "APPROVED",
+    "clause": "4.1",
+    "payable_amount": 48000,
+    "reasoning": "No denial criteria met; bill total is payable in full."
+  },
+  "CLM2-118": {
+    "decision": "APPROVED",
+    "clause": "4.2",
+    "payable_amount": 0,
+    "reasoning": "Bill total minus deductible results in zero payable."
+  }
+}

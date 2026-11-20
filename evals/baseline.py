@@ -87,7 +87,7 @@ def main(n):
 
     res = {"retrieval_hit_rate": retrieval, "n_llm_claims": len(subset),
            "decision_acc": round(dec / len(subset), 3),
-           "clause_acc": round(clause / len(subset), 3),
+           "clause_acc": round(clause / len(subset), 3), 
            "payable_acc": round(pay / len(subset), 3)}
     print("\nBASELINE:", json.dumps(res, indent=2))
     #(ROOT / "evals" / "results_baseline.json").write_text(json.dumps(res, indent=2))
