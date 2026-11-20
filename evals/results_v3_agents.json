@@ -1,19 +1,19 @@
 {
-  "n": 40,
+  "n": 150,
   "decision_and_payable_acc": 1.0,
   "fraud_flag_acc": 1.0,
-  "human_review_rate": 0.25,
+  "human_review_rate": 0.187,
   "by_slice": {
-    "injection=False": "37/37",
-    "injection=True": "3/3",
-    "ref=id": "31/31",
-    "ref=name": "9/9",
-    "scenario=boundary": "5/5",
-    "scenario=excluded": "8/8",
-    "scenario=fraud": "8/8",
-    "scenario=ok": "7/7",
-    "scenario=outside": "4/4",
-    "scenario=overlimit": "3/3",
-    "scenario=waiting": "5/5"
+    "injection=False": "139/139",
+    "injection=True": "11/11",
+    "ref=id": "115/115",
+    "ref=name": "35/35",
+    "scenario=boundary": "16/16",
+    "scenario=excluded": "26/26",
+    "scenario=fraud": "18/18",
+    "scenario=ok": "33/33",
+    "scenario=outside": "18/18",
+    "scenario=overlimit": "16/16",
+    "scenario=waiting": "23/23"
   }
 }
