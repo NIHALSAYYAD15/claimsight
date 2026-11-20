@@ -72,3 +72,5 @@
 {"type": "request", "claim_id": "0f8742b2eb49", "decision": "NEEDS_REVIEW", "latency_ms": 1421, "human_review": true, "cached": false, "ts": 1795178293.153}
 {"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 969, "prompt_tokens": 450, "completion_tokens": 324, "cost_usd": 0.00026189999999999997, "ts": 1795178768.854}
 {"type": "request", "claim_id": "05583b0402c5", "decision": "APPROVED", "latency_ms": 997, "human_review": true, "cached": false, "ts": 1795178768.863}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 3029, "prompt_tokens": 402, "completion_tokens": 368, "cost_usd": 0.00028109999999999995, "ts": 1795179081.051}
+{"type": "request", "claim_id": "ba4f80373d5c", "decision": "APPROVED", "latency_ms": 3045, "human_review": true, "cached": false, "ts": 1795179081.067}
