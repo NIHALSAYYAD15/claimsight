@@ -58,3 +58,17 @@
 {"type": "request", "claim_id": "3ed09e025561", "decision": "APPROVED", "latency_ms": 2, "human_review": false, "cached": true, "ts": 1795177586.754}
 {"type": "cache_hit", "claim_id": "148edba71ae0", "ts": 1795177587.015}
 {"type": "request", "claim_id": "148edba71ae0", "decision": "DENIED", "latency_ms": 2, "human_review": true, "cached": true, "ts": 1795177587.017}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1531, "prompt_tokens": 428, "completion_tokens": 318, "cost_usd": 0.000255, "ts": 1795177999.008}
+{"type": "request", "claim_id": "e971236feb92", "decision": "DENIED", "latency_ms": 1550, "human_review": false, "cached": false, "ts": 1795177999.008}
+{"type": "cache_hit", "claim_id": "e971236feb92", "ts": 1795178163.232}
+{"type": "request", "claim_id": "e971236feb92", "decision": "DENIED", "latency_ms": 10, "human_review": false, "cached": true, "ts": 1795178163.236}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1026, "prompt_tokens": 431, "completion_tokens": 294, "cost_usd": 0.00024105, "ts": 1795178187.981}
+{"type": "request", "claim_id": "1a170f812ac5", "decision": "APPROVED", "latency_ms": 1034, "human_review": false, "cached": false, "ts": 1795178187.987}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1195, "prompt_tokens": 431, "completion_tokens": 310, "cost_usd": 0.00025065, "ts": 1795178213.714}
+{"type": "request", "claim_id": "6250c7f99275", "decision": "APPROVED", "latency_ms": 1205, "human_review": true, "cached": false, "ts": 1795178213.714}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1292, "prompt_tokens": 450, "completion_tokens": 404, "cost_usd": 0.0003099, "ts": 1795178271.546}
+{"type": "request", "claim_id": "87b7ee659dd3", "decision": "APPROVED", "latency_ms": 1297, "human_review": true, "cached": false, "ts": 1795178271.546}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 1413, "prompt_tokens": 397, "completion_tokens": 300, "cost_usd": 0.00023955000000000002, "ts": 1795178293.153}
+{"type": "request", "claim_id": "0f8742b2eb49", "decision": "NEEDS_REVIEW", "latency_ms": 1421, "human_review": true, "cached": false, "ts": 1795178293.153}
+{"type": "llm_call", "ok": true, "attempt": 0, "latency_ms": 969, "prompt_tokens": 450, "completion_tokens": 324, "cost_usd": 0.00026189999999999997, "ts": 1795178768.854}
+{"type": "request", "claim_id": "05583b0402c5", "decision": "APPROVED", "latency_ms": 997, "human_review": true, "cached": false, "ts": 1795178768.863}

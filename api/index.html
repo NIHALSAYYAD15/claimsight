@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ClaimSight</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 760px; margin: 32px auto; padding: 0 16px; }
+  textarea { width: 100%; height: 220px; font-family: monospace; padding: 8px; box-sizing: border-box; }
+  button { padding: 10px 18px; margin: 10px 8px 10px 0; cursor: pointer; }
+  #out { margin-top: 16px; padding: 16px; border: 1px solid #8884; border-radius: 8px; display: none; }
+  .badge { display: inline-block; padding: 4px 12px; border-radius: 12px; font-weight: 600; color: #fff; }
+  .APPROVED { background: #1a7f37; } .DENIED { background: #cf222e; }
+  .PARTIAL { background: #bf8700; } .NEEDS_REVIEW { background: #6e7781; }
+  .flag { background: #fff3cd; color: #664d03; padding: 2px 8px; border-radius: 8px; margin-right: 6px; }
+  td { padding: 3px 14px 3px 0; vertical-align: top; }
+</style>
+</head>
+<body>
+<h1>ClaimSight</h1>
+<p>Paste a claim email with its bill and click Analyze.</p>
+<textarea id="text">Hi team,
+I need to claim Rs. 16,000 for storm damage. It happened on 2026-09-02. Policy: POL-011. Bill is below.
+
+--- ATTACHED BILL ---
+TAX INVOICE
+Customer: Aditya Kale
+Date: 2nd September 2026
+Materials: INR 5000
+Labour: INR 4000
+Cleanup and disposal: INR 7000
+TOTAL: INR 16000</textarea>
+<br>
+<button id="go">Analyze</button><span id="status"></span>
+<div id="out">
+  <p><span id="decision" class="badge"></span></p>
+  <table id="rows"></table>
+  <p id="flags"></p>
+</div>
+<script>
+const $ = id => document.getElementById(id);
+$("go").onclick = async () => {
+  $("status").textContent = "Analyzing...";
+  $("out").style.display = "none";
+  try {
+    const r = await fetch("/claims/analyze", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({text: $("text").value})
+    });
+    const d = await r.json();
+    if (!r.ok) throw new Error(JSON.stringify(d));
+    $("decision").textContent = d.decision;
+    $("decision").className = "badge " + d.decision;
+    const rows = [["Policy", d.policy_id], ["Clause", d.clause],
+      ["Payable (INR)", d.payable_amount], ["Reason", d.reason],
+      ["Latency", d.latency_ms + " ms"]];
+    $("rows").replaceChildren(...rows.map(([k, v]) => {
+      const tr = document.createElement("tr");
+      const a = document.createElement("td"); a.textContent = k;
+      const b = document.createElement("td"); b.textContent = v ?? "-";
+      tr.append(a, b); return tr;
+    }));
+    $("flags").replaceChildren(...d.flags.map(f => {
+      const s = document.createElement("span");
+      s.className = "flag"; s.textContent = f; return s;
+    }));
+    if (d.human_review_required) {
+      const n = document.createElement("div");
+      n.textContent = "Human review required before action.";
+      $("flags").append(n);
+    }
+    $("out").style.display = "block";
+    $("status").textContent = "";
+  } catch (e) {
+    $("status").textContent = "Error: " + e.message;
+  }
+};
+</script>
+</body>
+</html>

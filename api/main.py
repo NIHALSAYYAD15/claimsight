@@ -5,12 +5,17 @@ from groq import Groq
 from pydantic import BaseModel
 from agents import trace
 from agents.graph import make_app
+from pathlib import Path
+from fastapi.responses import FileResponse
 
 load_dotenv()
 cache = {}  # in-memory extraction cache (identical claims are not re-sent to the LLM)
 graph = make_app(Groq(api_key=os.environ["GROQ_API_KEY"]), cache, lambda: None, pause=0)
 api = FastAPI(title="ClaimSight", version="0.1.0")
 
+@api.get("/")
+def home():
+    return FileResponse(Path(__file__).parent / "index.html")
 
 class ClaimIn(BaseModel):
     text: str
