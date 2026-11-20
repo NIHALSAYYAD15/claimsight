@@ -64,7 +64,7 @@ def apply_rules(p, ex):
     if is_excluded(ex.get("cause"), p["excl"]):
         return {"decision": "DENIED", "clause": "5.1", "payable_amount": 0, "reason": "excluded cause"}
     if total > p["limit"]:
-        return {"decision": "PARTIAL", "clause": "4.1", "payable_amount": p["limit"],
+        return {"decision": "PARTIAL", "clause": "4.1", "payable_amount": p["limit"] - p["deductible"],
                 "reason": "bill exceeds coverage limit"}
     return {"decision": "APPROVED", "clause": "4.2" if p["deductible"] else "4.1",
             "payable_amount": max(total - p["deductible"], 0), "reason": "covered"}
